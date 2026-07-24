@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patisserie IBN BATTUTA</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Patisserie IBN BATTUTA | حلويات ابن بطوطة</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com
+    /css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/
+ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
+            <div class="logo">
             <h2>IBN BATTUTA</h2>
+            </div>
 
             <ul>
                 <li><a href="#">الرئيسية</a></li>
@@ -22,7 +37,7 @@
 
     <section class="hero">
 
-        <div class="hero-text">
+        <div class="hero-content">
 
             <h1>حلويات ابن بطوطة</h1>
 
@@ -30,8 +45,12 @@
             .اجود انواع الحلويات المغربية و الفرنسية و كيك المناسبات المصنوع بعناية
 
             </p>
+            <div class="buttons">
 
-            <button>اطلب الان</button>
+            <a href="#" class="btn">اطلب الان</a>
+
+            <a href="#" class="btn-outline"></a>
+            </div>
         </div>
 
         <div class="hero-image">
@@ -39,7 +58,93 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <section class="about">
+
+        <div class="about-image">
+            <img src="images/sweets1.jpg" alt="حلويات">
+        </div>
+
+        <div class="about-text">
+            <h2>من نحن</h2>
+
+            <p> في
+                 حلويات ابن بطوطة نقدم تشكيلة متنوعة من الحلويات المغربيةو الفرنسية وكيكات المناسبات 
+                المصنوعة باجود المكونات و باهتمام بادق التفاصيل لاسعاد عملانا.
+            </p>
+
+            <div class="features">
+                <div class="feature">
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <span>كيكات المناسبات</span>
+                </div>
+
+                <div class="feature">
+                    <i class="fa-solid fa-cookie"></i>
+                    <span>حلويات متنوعة</span>
+                </div>
+
+                <div class="feature">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>جودة عالية</span>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="products">
+
+        <h2></h2>
+
+        <div class="product-grid">
+
+            <div class="card">
+                <img src="images/cake3.jpg" alt="">
+                <h3>كيكات المناسبات</h3>
+            </div>
+
+            <div class="card">
+                <img src="images/sweets2.jpg" alt="">
+                <h3>الحلويات المغربية</h3>
+            </div>
+
+            <div class="card">
+                <img src="images/cake2.jpg" alt="">
+                <h3>الحلويات الفرنسية</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>تواصل معنا</h2>
+
+        <div class="contact-box">
+            <p><strong>العنوان:</strong>طنجة المغرب</p>
+
+            <p><strong>الهاتف:</strong>0662641175</p>
+
+            <p><strong>البريد:</strong>ibnbattuta@gmail.com</p>
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+    <script src="js/script.js"></script>
+
+    <a href="https://wa.me/212662641175" class="whatsapp" target="_blank"> </a>
+
+    <footer>
+        <p>2026 Patisserie IBN BATTUTO - جميع الحقوق محفوظة</p>
+    </footer>
     
 </body>
 </html>
